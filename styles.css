@@ -1,0 +1,54 @@
+ #logo{
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+#name{
+    text-align: center;
+    font-family:'Lucida Sans Unicode';
+}
+hr{
+    width: 75%;
+}
+
+.topnav{
+    text-align: center
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    background-color: 	#006241;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+#search_page{
+    margin: auto;
+    width: 23%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

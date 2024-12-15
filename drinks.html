@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Starbucks</title>
+        <link rel="icon" src="images\Starbucks-Logo.png">
+    </head>
+
+    <body>
+        <div>
+            <img id="logo" src="images\Starbucks-Logo.png" alt="logo"><h1 id="name">Starbucks Coffee</h1>
+        </div>
+        <hr>
+        <div class="topnav">
+            <li><a href="index.html">Home</a></li>
+           <li><a class="active" href="drinks.html">Drinks</a></li> 
+            
+          </div>
+<br>
+<br>
+          <div id="search_page">
+            <label for="search_drinks">Search Drinks</label>
+            <input type="search" id="search_drinks" value="" onchange="findCoffee()">
+
+          </div>
+          <br>
+          <br>
+
+          
+          <h3 style="text-align: center;">Drinks</h3>
+
+          <br>
+          <br>
+          <div class="row">
+            <div class="column" style="background-color:#aaa;">
+            <h4 >Hot Coffee </h4>
+            <ul id="list">
+            <li class="drinks">Caffe Americano</li>
+            <li class="drinks">Dark Roast</li>
+            <li class="drinks">Cappuccino</li>
+            <li class="drinks">Expresso</li>
+            <li class="drinks">Caffe Latte</li>
+            <li class="drinks">Caffe Moca</li>
+            </ul>
+            
+            </div>
+            <div class="column" style="background-color:#bbb;">
+            <h4 >Cold Coffee </h4>
+            <ul id="list">
+            <li class="drinks">Cold Brew</li>
+            <li class="drinks">Iced Caffe Americano</li>
+            <li class="drinks">Iced Coffee</li>
+            <li class="drinks">Iced Ice Expresso</li>
+            <li class="drinks">Iced Caffe Latte</li>
+            <li class="drinks">Iced Caffe Moca</li></ul>
+            </div>
+            <div class="column" style="background-color:#ccc;">
+                <h4 >Frappuccino</h4>
+                <ul id="list">
+                <li class="drinks">Mocha Cookie Crumble</li>
+                <li class="drinks">Java Chip</li>
+                <li class="drinks">Caramel Frappuccino</li>
+                <li class="drinks">Vanilla Bean Creme</li>
+                <li class="drinks">Chai Creme</li>
+                <li class="drinks">Sugar Cookie</li></ul>
+            </div>
+            <div class="column" style="background-color:#ddd;">
+                <h4 >Hot Teas </h4>
+                <ul class="list">
+                <li class="drinks">Chai Latte</li>
+                <li class="drinks">Chai Tea</li>
+                <li class="drinks">Earl Grey</li>
+                <li class="drinks">Black Tea</li>
+                <li class="drinks">Royal English</li>
+                <li class="drinks">Honey Citrus</li>
+                </ul>
+            </div>
+          </div>
+
+         
+
+    </body>
+    <script src="script.js"></script>
+</html>
